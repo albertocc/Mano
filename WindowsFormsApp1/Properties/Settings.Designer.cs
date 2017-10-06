@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Mouse.Properties {
+namespace Mano.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

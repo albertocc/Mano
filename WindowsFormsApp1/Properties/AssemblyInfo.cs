@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WindowsFormsApp1")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Mano 1.0")]
+[assembly: AssemblyDescription("Switch mouse buttons easily")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WindowsFormsApp1")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCompany("http://alberto.cc")]
+[assembly: AssemblyProduct("Mano 1.0")]
+[assembly: AssemblyCopyright("Copyright © albertocc 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

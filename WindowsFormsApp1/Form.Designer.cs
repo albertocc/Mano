@@ -28,45 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnLeft = new System.Windows.Forms.Button();
             this.btnRight = new System.Windows.Forms.Button();
+            this.btnLeft = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btnLeft
-            // 
-            this.btnLeft.FlatAppearance.BorderSize = 0;
-            this.btnLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLeft.Location = new System.Drawing.Point(12, 12);
-            this.btnLeft.Name = "btnLeft";
-            this.btnLeft.Size = new System.Drawing.Size(143, 133);
-            this.btnLeft.TabIndex = 0;
-            this.btnLeft.Text = "left";
-            this.btnLeft.UseVisualStyleBackColor = true;
-            this.btnLeft.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnLeft_MouseDown);
             // 
             // btnRight
             // 
+            this.btnRight.BackColor = System.Drawing.Color.Transparent;
+            this.btnRight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnRight.FlatAppearance.BorderSize = 0;
+            this.btnRight.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.btnRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRight.Location = new System.Drawing.Point(161, 12);
+            this.btnRight.Image = global::Mano.Properties.Resources.right_hand;
+            this.btnRight.Location = new System.Drawing.Point(280, 40);
             this.btnRight.Name = "btnRight";
-            this.btnRight.Size = new System.Drawing.Size(143, 133);
+            this.btnRight.Size = new System.Drawing.Size(200, 200);
             this.btnRight.TabIndex = 1;
-            this.btnRight.Text = "right";
-            this.btnRight.UseVisualStyleBackColor = true;
+            this.btnRight.UseVisualStyleBackColor = false;
             this.btnRight.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnRight_MouseDown);
+            // 
+            // btnLeft
+            // 
+            this.btnLeft.BackColor = System.Drawing.Color.Transparent;
+            this.btnLeft.FlatAppearance.BorderSize = 0;
+            this.btnLeft.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.btnLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLeft.Image = global::Mano.Properties.Resources.left_hand;
+            this.btnLeft.Location = new System.Drawing.Point(40, 40);
+            this.btnLeft.Name = "btnLeft";
+            this.btnLeft.Size = new System.Drawing.Size(200, 200);
+            this.btnLeft.TabIndex = 0;
+            this.btnLeft.UseVisualStyleBackColor = false;
+            this.btnLeft.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnLeft_MouseDown);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(316, 157);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(520, 280);
             this.Controls.Add(this.btnRight);
             this.Controls.Add(this.btnLeft);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.Opacity = 0.85D;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.TopMost = true;
             this.ResumeLayout(false);
 
         }

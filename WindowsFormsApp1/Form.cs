@@ -22,24 +22,29 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void btnRight_MouseDown(object sender, EventArgs e)
+        private void btnRight_MouseDown(object sender, MouseEventArgs e)
         {
             // Cambia
             SwapMouseButton(0);
             // Lo guarda en el registro
             Registry.CurrentUser.CreateSubKey(@"Control Panel\Mouse").SetValue("SwapMouseButtons", 0);
             // Muestra el actual en el registro (no cambia hasta cerrar sesion)
-            MessageBox.Show(SystemInformation.MouseButtonsSwapped ? "1" : "0", "Right", MessageBoxButtons.OK);
             Application.Exit();
         }
 
-        private void btnLeft_MouseDown(object sender, EventArgs e)
+        private void btnLeft_MouseDown(object sender, MouseEventArgs e)
         {
             SwapMouseButton(1);
             // 1 es Left. 0 es Right.
             Registry.CurrentUser.CreateSubKey(@"Control Panel\Mouse").SetValue("SwapMouseButtons", 1);
-            MessageBox.Show(SystemInformation.MouseButtonsSwapped ? "1" : "0", "Left", MessageBoxButtons.OK);
             Application.Exit();
         }
+
+        private void btnRight_MouseOver(object sender, EventArgs e)
+        {
+            this.btnRight.BackColor = Color.Black;
+            MessageBox.Show("Blabla");
+        }
+
     }
 }
