@@ -3,9 +3,9 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/albertocc/Mano/blob/master/LICENSE)
 ![left-handed-compatible](https://img.shields.io/badge/left--handed-compatible-brightgreen.svg)
 
-### Don't waste your time trying to find the mouse settings in the Control Panel each time you need to use the mouse with the other hand!
+### Mano is a small windows app that let you switch the mouse buttons easily.
 
-Mano is a small windows app that let you switch the mouse buttons easily. Especially intended for that **left-handed** people who share computers with non-left-handed people :smirk:
+Especially intended for that **left-handed** people who share computers with non-left-handed people :smirk:
 
 ![mano](https://user-images.githubusercontent.com/13858689/31744397-e556d600-b45e-11e7-9897-9883ba64fefb.gif)
 
