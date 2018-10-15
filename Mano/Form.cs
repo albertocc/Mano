@@ -38,12 +38,5 @@ namespace WindowsFormsApp1
             Registry.CurrentUser.CreateSubKey(@"Control Panel\Mouse").SetValue("SwapMouseButtons", 0);
             Application.Exit();
         }
-
-        private void btnRight_MouseOver(object sender, EventArgs e)
-        {
-            this.btnRight.BackColor = Color.Black;
-            MessageBox.Show("Blabla");
-        }
-
     }
 }
